@@ -29,6 +29,7 @@ html {
 .login_button:hover {
     background-color: dodgerblue;
     color: white;
+    cursor: pointer;
 }
 
 .first_section {
@@ -90,6 +91,7 @@ html {
 .submit_button:hover {
     background-color: white;
     color: lightcoral;
+    cursor: pointer;
 }
 .forgot_password {
     font-size: 4.5mm;
@@ -302,6 +304,7 @@ html {
 .send:hover {
     color: lightseagreen;
     background-color: white;
+    cursor: pointer;
 }
 .seventh_section {
     margin-top: 20px;

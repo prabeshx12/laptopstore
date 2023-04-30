@@ -1,0 +1,335 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.quick_launch {
+    font-size: 6mm;
+    font-family: cursive;
+    word-spacing: 10mm;
+    margin-top: 20px;
+    text-align: center;
+}
+.quick_lch {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease-in-out; 
+}
+.quick_lch:hover {
+    color: dodgerblue;
+}
+
+.login_button {
+    padding: 1rem 4rem;
+    font-size: 5mm;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: white;
+    color: dodgerblue;  
+    font-weight: bold;
+}
+.login_button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.first_section {
+    margin-top: 5px; 
+}
+.landing_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro_to_company {
+    position: absolute;
+    color: white;
+    font-size: 12mm;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login {
+    position: absolute;
+    right: 50px;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 8mm;
+    font-weight: bold;
+    text-align: center;
+    width: 430px;
+    height: 400px;
+}
+.form {
+    font-family: cursive;
+    font-size: 5mm;
+    width: 400px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    border: 3px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.form:focus {
+    border: 3px solid lightskyblue;
+}
+.form_features {
+    padding: 5px;
+}
+.submit_button {
+    padding: 15px 40px;
+    font-size: 6mm;
+    background-color: lightcoral;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.submit_button:hover {
+    background-color: white;
+    color: lightcoral;
+}
+.forgot_password {
+    font-size: 4.5mm;
+    color: white;
+}
+.new_to_store {
+    font-size: 4.5mm;
+    color: white;
+}
+.new_to_store::before{
+    content: 'New to 7XStore? ';
+}
+.signup {
+    color: lightskyblue;
+}
+.login_box {
+    padding: 20px;
+}
+.landing_page {
+    width: 1500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.what_we_do {
+    font-size: 10mm;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quote {
+    text-align: center;
+}
+.things_we_do {
+    display: flex;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 40px;
+    height: 420px;
+}
+.things {
+    padding: 20px;
+}
+.contrib {
+    height: 80px;
+    transition: height 0.5s ease;
+}
+.heading {
+    font-size: 7mm;
+    font-weight: bold;
+    font-family: cursive;
+}
+.info {
+    font-size: 5mm;
+    font-weight: bold;
+}
+.contrib:hover {
+    height: 90px;
+}
+.second_section {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.our_products {
+    font-size: 10mm;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dell_laptops {
+    font-size: 7mm;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.macbooks {
+    font-size: 7mm;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hp_laptops {
+    font-size: 7mm;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.laptop {
+    height: 350px;
+    width: 496px;
+    object-fit: contain;
+    margin: 1px;
+}
+.sponsers {
+    font-size: 10mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.sponsers_image {
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponser_logo {
+    height: 60px;
+    margin: 20px;
+}
+.fourth_section {
+    margin-top: 20px;
+}
+.app {
+    padding: 0 0 0 80px;
+}
+.topics {
+    font-size: 8mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.value {
+    text-align: center;
+    font-size: 14mm;
+    font-family: cursive;
+}
+.fifth_section {
+    margin-top: 20px;
+}
+.team_members {
+    text-align: center;
+    font-size: 10mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.member {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.name {
+    font-size: 5mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.post {
+    font-size: 4mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description {
+    font-size: 4mm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feedbacks {
+    font-size: 10mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.contact {
+    font-size: 8mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sixth_section {
+    margin-top: 20px;
+    background-color: lightgrey;
+    padding: 30px;
+}
+.person_name {
+    font-size: 6mm;
+    padding: 6px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid black;
+    transition: border 0.5s;
+    width: 500px;
+}
+.person_name:focus {
+    border: 2px solid lightskyblue;
+}
+.information {
+    font-size: 6mm;
+    width: 500px;
+    height: 200px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid black;
+    transition: border 0.5s;
+}
+.information:focus {
+    border: 2px solid lightskyblue;
+}
+.first_one {
+    display: flex;
+    justify-content: space-between;
+}
+.feedback_one {
+    display: flex;
+    flex-direction: column;
+}
+.send {
+    padding: 20px 50px;
+    font-size: 7mm;
+    background-color: lightseagreen;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    float: right;
+}
+.send:hover {
+    color: lightseagreen;
+    background-color: white;
+}
+.seventh_section {
+    margin-top: 20px;
+    background-color: darkslateblue;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.rocket {
+    height: 60px;
+    transition: height 1s;
+}
+.rocket:hover {
+    height: 70px;
+}
+.copyright {
+    font-size: 6mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.social {
+    height: 30px;
+    padding: 10px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+.social:hover {
+    box-shadow: 1px 0.5px 1px 1px darkgrey;
+}

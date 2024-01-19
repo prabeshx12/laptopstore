@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .quick_launch {
@@ -35,39 +36,53 @@ html {
 .first_section {
     margin-top: 5px; 
 }
-.landing_photo {
+.flex-col{
     display: flex;
-    justify-content: center;
+    min-height: 80vh;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
     align-items: center;
+    background: url(landing_page.jpg);
+    justify-content: space-around;
 }
 .intro_to_company {
-    position: absolute;
     color: white;
     font-size: 12mm;
     margin-left: 30px;
     font-weight: bold;
+    width: 600px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.login {
-    position: absolute;
-    right: 50px;
-    top: 130px;
-    display: flex;
-    flex-direction: column;
+
+@media(max-width: 1120px){
+    .flex-col{
+        flex-direction: column;
+    }
+
+    .intro_to_company{
+        padding: 12px;
+        width: 80%;
+    }
 }
 .login {
+    display: flex;
+    flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 8mm;
     font-weight: bold;
     text-align: center;
     width: 430px;
-    height: 400px;
+    max-width: 50%;
 }
+
+
 .form {
     font-family: cursive;
     font-size: 5mm;
-    width: 400px;
+    width: 80%;
     border-radius: 4px;
     padding: 12px 20px;
     border: 3px solid black;
@@ -80,6 +95,7 @@ html {
 }
 .form_features {
     padding: 5px;
+
 }
 .submit_button {
     padding: 15px 40px;
@@ -110,12 +126,7 @@ html {
 .login_box {
     padding: 20px;
 }
-.landing_page {
-    width: 1500px;
-    height: 500px;
-    object-fit: cover;
-    margin-top: 20px;
-}
+
 .what_we_do {
     font-size: 10mm;
     text-align: center;
@@ -125,13 +136,24 @@ html {
     text-align: center;
 }
 .things_we_do {
-    display: flex;
+    display: grid;
     text-align: center;
     background-color: aliceblue;
     padding: 40px;
-    height: 420px;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+@media(max-width: 950px){
+    .things_we_do{
+        grid-template-columns: 80%;
+    }
 }
 .things {
+    margin: 2px;
+    height: auto;
     padding: 20px;
 }
 .contrib {
@@ -156,6 +178,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 .our_products {
     font-size: 10mm;
@@ -202,7 +225,18 @@ html {
     margin-top: 20px;
 }
 .app {
-    padding: 0 0 0 80px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .topics {
     font-size: 8mm;
